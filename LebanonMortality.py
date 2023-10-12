@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-lebanon_mortality_2 = r"C:\Users\Lenovo\Downloads\lebanon_mortality_2.csv"
+lebanon_mortality_2 = 'https://raw.githubusercontent.com/KinanMorad/MortalityInLebanon/main/lebanon_mortality_2.csv'
 df = pd.read_csv(lebanon_mortality_2)
 
 st.title("Lebanon Mortality Over Years")
